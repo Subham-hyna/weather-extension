@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="loader">
+        <span>Getting Weather</span>
+        <div class="loader"></div>
+    </div>
+    <div class="main-container" id="weather-block">
+        <div class="place">
+            <h2 id="city-name"></h2>
+            <p id="country-code"></p>
+        </div>
+        <div class="temp">
+            <h1 id="temp-text"></h1>
+            <p>&deg;C</p>
+        </div>
+        <div class="feels-like-temp">
+            <h4 id="feelsliketemp-text"></h4>
+            <p>&deg;C</p>
+        </div>
+       <img id="temp_icon" src="" alt="weather-icon"/>
+       <p id="temp_desc"></p>
+    </div>  
+</body>
+<script src="popup.js" ></script>
+</html>

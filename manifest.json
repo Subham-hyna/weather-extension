@@ -1,0 +1,12 @@
+{
+    "name": "Weather_Today",
+    "manifest_version": 3,
+    "description": "Simple Weather Extension",
+    "version": "0.0.1",
+
+    "action":{
+        "default_popup": "./popup.html"
+    },
+
+    "permissions": ["activeTab","geolocation"]
+}
